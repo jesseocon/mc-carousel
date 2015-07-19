@@ -3,8 +3,9 @@
 
   angular
     .module('mcCarousel', [
-      'mcCarousel.controllers',
-      'mcCarousel.directives'
+      'mcCarousel.directives',
+      'slideBridge',
+      'slideContainerBridge'
     ]);
 
 })(window, window.angular);

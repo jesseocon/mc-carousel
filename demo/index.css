@@ -8,3 +8,19 @@ body {
 *, *:before, *:after {
   box-sizing: border-box;
 }
+
+.container {
+  width: 100%;
+  position: relative;
+  background: gray;
+  overflow: hidden;
+}
+
+.container .slide {
+  position: absolute;
+  margin: 0 auto;
+  height: 100%;
+  height: 250px;
+  background: white;
+  width: 500px;
+}

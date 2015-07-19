@@ -15,6 +15,10 @@
 
 </head>
 <body ng-app="demoApp" ng-controller="demoMainController" ng-cloak>
-  <test-directive></test-directive>
+  <mc-carousel class="container" id="slide-container">
+    <div class="slide" ng-repeat="slide in slides">
+      <p>{{slide.message}}</p>
+    </div>
+  </mc-carousel>
 </body>
 </html>
