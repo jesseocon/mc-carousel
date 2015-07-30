@@ -15,7 +15,16 @@
 
 </head>
 <body ng-app="demoApp" ng-controller="demoMainController" ng-cloak>
-  <mc-carousel class="container" id="slide-container">
+  <mc-slides class="container" id="slide-container" buttons="false" on-after-move="updateCurrentSlideNo(totalSlides, currentSlideNo, currentSlideIndex)">
+    <div class="right-button" ng-click="move('right')" ng-if="!isLastSlide()">
+      <button>forward</button>
+    </div>
+    <div class="left-button" ng-click="move('left')" ng-if="!isFirstSlide()">
+      <button>back</button>
+    </div>
+    <div class="add-slide" ng-click="addSlide()">
+      <button>add slide</button>
+    </div>
     <div class="slide" ng-repeat="slide in slides">
       <p>{{slide.message}}</p>
     </div>

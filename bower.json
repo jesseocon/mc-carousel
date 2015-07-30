@@ -1,7 +1,7 @@
 {
   "name": "mc-carousel",
   "description": "Generic Carousel",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": [
     "dist/mc-carousel.js",
     "dist/mc-carousel.css"

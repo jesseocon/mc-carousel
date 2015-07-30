@@ -1,0 +1,6 @@
+/**
+ * mc-carousel v0.1.0 ()
+ * Copyright 2015 Jesse Ocon
+ * Licensed under MIT
+ */
+.mc-carousel{display:block}.mc-carousel div.mc-carousel-slide{width:100px;height:100px;float:left;margin-left:30px;background:gray}

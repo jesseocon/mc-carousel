@@ -3,7 +3,7 @@
 
   angular
     .module('mcCarousel', [
-      'mcCarousel.directives',
+      'mcSlides',
       'slideBridge',
       'slideContainerBridge'
     ]);
